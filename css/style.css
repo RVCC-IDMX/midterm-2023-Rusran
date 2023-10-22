@@ -1,24 +1,29 @@
 *{
     background-color: black;
     color: antiquewhite;
-    /*outline: 3px solid yellow;*/
+    font-family: "Sometype Mono";
+    outline: 3px solid yellow;*/
 }
 
 
 h1, h2, h3, h4, h5, h6{
-    font-size: 800%;
+    display: flex;
+    font-size: 800% ;
     font-family: Handjet;
 }
 
-header{
+header h1{
+    justify-content: center;
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 0%;
+    margin-bottom: 0%;
     border: 10px solid antiquewhite ;
 }
 #intro h3{
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 20px;
     margin: 0%;
 }
 #intro p{
@@ -26,17 +31,16 @@ header{
     font-size: 200%;
     text-indent: 40px;
     padding-right: 10%;
-    padding-top: 100px;
+    padding-top: 30px;
+    margin-left: 40px;
 }
 #intro span{
     color: yellow;
 }
 
 #intro div{
-    display: flex;
-    
+    display: flex;   
     font-family: "Sometype Mono";
-    margin-bottom: 0% 
 }
 #intro figure{
     padding-right: 100px;
@@ -44,8 +48,32 @@ header{
 }
 
 
-
-#photos{
+#photos div{
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+}
+#photos hr{
+    display: block;
+}
+
+#photos figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    height: 500px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 2em;  
+}
+
+#list div{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+}
+#list h2{
+    justify-content: center;
+    margin: 0%;
 }
