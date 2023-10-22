@@ -1,1 +1,1 @@
-# IDMX 225 Midterm
+# Russel Malik's IDMX 225 Midterm
