@@ -4,11 +4,12 @@
     font-family: "Sometype Mono";
     /*outline: 3px solid yellow;*/
     margin: 0%;
-    overflow-x: visible;
 }
 
-body{
-    
+html, body{
+    max-width: 150%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 h1, h2, h3, h4, h5, h6{
     display: flex;
@@ -60,9 +61,6 @@ header h1{
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px ;
-}
-#photos hr{
-    display: block;
 }
 
 #photos figure{
@@ -183,7 +181,7 @@ footer a{
     #intro div{
         display: grid;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         grid-template-columns: 1fr;
     }
     #intro figure{
@@ -222,18 +220,16 @@ footer a{
     header h1{
         display: flex;
         justify-content: center;
-        font-size: 600%;    
-        margin-left: 50px; 
-        padding-left:200px ;
+        font-size: 400%;    
+        margin-left: 0%; 
+        padding-left:100px ;
         margin-right: 0%;
-        padding-right: 200px ;
+        padding-right: 100px ;
     }
     #intro h3{
         display: flex;
         justify-content: center;
-        text-wrap: nowrap;
         font-size: 400%;
-
     }
     #intro{
         display: flex;
@@ -244,13 +240,21 @@ footer a{
         display: flex;
         flex-direction: column;
         max-width: 300px;
-        margin-left:20%;
+        margin-left:10%;
     }
-
-    #photos{
-        margin-left: 20%;
-
-    }
+    #intro p{
+        font-size: 100%;
     
+    }
+
+    #photos div{
+        margin-left: 10%;
+    }
+    #photos div figure{
+        display: flex;
+        max-width: 300px;
+        font-size: 100%;
+    }
+
 }
 
